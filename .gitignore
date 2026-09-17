@@ -1,0 +1,13 @@
+node_modules/
+.venv-voice/
+*.log
+.DS_Store
+Thumbs.db
+.env
+.env.*
+*.wav
+__pycache__/
+*.pyc
+.idea/
+.vscode/
+*.bak

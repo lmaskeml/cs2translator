@@ -1,0 +1,34 @@
+{
+  "name": "cs2translator",
+  "version": "2.0.0",
+  "description": "CS2 Sesli Translator — Counter-Strike 2 yazılı sohbet ve sesli konuşma çevirisi (Whisper + Google Translate).",
+  "type": "module",
+  "bin": {
+    "cs2translator": "bin/cs2-chat-translator.js",
+    "cs2-sesli-translator": "bin/cs2-chat-translator.js",
+    "cs2-chat-translator": "bin/cs2-chat-translator.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lmaskeml/cs2translator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lmaskeml/cs2translator/issues"
+  },
+  "homepage": "https://github.com/lmaskeml/cs2translator#readme",
+  "keywords": [
+    "cs2",
+    "counter-strike",
+    "translator",
+    "whisper",
+    "sesli",
+    "chat",
+    "google-translate"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "fuzzball": "^2.1.2",
+    "google-translate-api-x": "^10.7.0"
+  }
+}

@@ -1,0 +1,10 @@
+# Optional voice translation (WASAPI loopback + Whisper)
+# Setup (Windows):
+#   py -3.11 -m venv .venv-voice
+#   .venv-voice\Scripts\pip install -r requirements-voice.txt
+#
+# Then run:
+#   node bin/cs2-chat-translator.js --voice
+
+faster-whisper>=1.0.0
+PyAudioWPatch>=0.2.12
